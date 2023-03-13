@@ -1,0 +1,119 @@
+
+
+#column{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-content: center;
+    padding:10px;
+
+}
+body{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:hsl(30, 38%, 92%);
+
+}
+#perfume{
+    color:hsl(228, 12%, 48%);;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding:10px;
+}
+#name{
+    font-weight:700;
+    font-family:Fraunces;
+    font-size: 30px;
+    padding:10px;
+
+}
+
+#description{
+    font-family:Montserrat;
+    font-size:14px;
+    color:hsl(228, 12%, 48%);
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    
+}
+#small-price{
+    font-family:Montserrat;
+    font-size:14px;
+    color:hsl(228, 12%, 48%);
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    text-decoration: line-through;
+}
+
+#large-price{
+    color:hsl(133, 92%, 15%);
+    font-weight:700;
+    font-family:Fraunces;
+    font-size: 30px;
+    padding:10px;
+}
+
+button{
+    color: white;
+    background-color: hsl(133, 92%, 15%);
+    width:200px;
+    height:10%;
+    text-align: center;
+    border-radius: 10px;
+    border:none;   
+}
+
+button:hover{
+    
+    background-color: hsl(133, 88%, 10%);
+}
+
+#price{
+    display: flex;
+    flex-direction:row;
+    padding:10px;
+    
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin:auto;
+    max-width:700px;
+}
+@media screen and (max-width: 375px){
+    #large{
+        display:none;
+        padding:0px;
+
+    }
+    
+    
+}
+@media screen and (min-width:376px) {
+    #small{
+        display:none;
+        padding:0px;
+        
+    }
+    
+}
+
+img{
+    
+    width:350px;
+    height:auto;
+    border-radius: 20px 0px 0px 20px;
+    padding:0px;
+}
+
+#svg{
+    width:20px;
+    padding:5px 15px 0px 10px;
+}
